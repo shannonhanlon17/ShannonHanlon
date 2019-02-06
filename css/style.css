@@ -20,6 +20,14 @@ a:link{
 	text-decoration: none;
 }
 
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: #a8bac4;
+}
+
 #nav-bar{
 	position:fixed;
 	padding-top: 20px;
