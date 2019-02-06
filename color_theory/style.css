@@ -1,0 +1,125 @@
+
+/*Backgroung of the Game*/
+body{
+	background-color: pink;
+}
+
+/*Large White Container Holding Game Content*/
+.main{
+	width: 80%;
+	border: 4px solid black;
+	margin: auto;
+	margin-top: 5%;
+	padding: 30px; 
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: white;
+}
+
+/*Title of Game - Says Lets Learn Colors*/
+#header{
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+
+/*Instructions - Text Formatting*/
+.main_text{
+	font-size: 20px;
+	margin-left: 2%;
+	margin-bottom: none;
+}
+
+/*Hint Text*/
+.hint{
+	font-size: 12px;
+	text-align: right;
+	margin-top: none;
+}
+
+/*Box Holding Flowers*/
+.flower_container{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #d1d1d1;
+	background-color: white;
+}
+
+/*Styling on Containers Holding Flower Images - Applied on All Three*/
+.flowers{
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin: 2%;
+	align-content: center;
+}
+
+/*Pushes Bottom Flower In and Up */
+#bottom_flower{
+	margin-left: 30%;
+	margin-bottom: 5%;
+}
+
+/*Pushes Top Flowers In and Down*/
+#top_flowers{
+	margin-top: 5%;
+	margin-left: 7%;
+}
+
+/*Styling on Flower Images - Applied to All Three*/
+.empty_flower{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#large{
+	width: 300px;
+	height: 300px;
+	margin-left: 25%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+/*Container Holding Buckets*/
+.bucket_container{
+	width: 100%;
+	height: 100%;
+/*	border: 1px solid gray;*/
+	margin-top: 3%;
+}
+
+/*Bucket Image Styling*/
+.bucket{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*Poistion of the Buckets*/
+.bucket_positioning{
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+	margin: 3.5%;
+}
+
+/*Container Holding Home Button*/
+.home_container{
+	width: 100%;
+	height: 35px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+/*Home Button*/
+.home{
+	width: 60px;
+	height: 100%;
+	text-align: center;
+	background-color: #d1d1d1;
+	border: 1px solid black;
+	box-shadow: 1px 1px #d1d1d1;
+	float:right;
+}

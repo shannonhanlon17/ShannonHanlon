@@ -1,0 +1,68 @@
+body{
+	margin:0px;
+	background-color: #c4acb6;
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #42c5f4;
+}
+
+#nav-bar{
+	position:fixed;
+	padding-top: 20px;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	background-color:#c6c6c6;
+	margin:0px;
+}
+
+#bigger{
+	width:60%;
+	max-width:750px;
+	margin:auto;
+	margin-top:100px;
+	margin-bottom:50px;
+}
+
+.wide_pic{
+	width: 100%;
+}
+
+.inline{
+	display:inline;
+	font-family: 'Quicksand', sans-serif;
+	padding-left:20px;
+}
+
+.container{
+	width:60%;
+	max-width:750px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.wide-container{
+	width:100%;
+	height:200px; 
+	background-color: white;
+
+}
+
+/*This is a really great blue/gray color #a8bac4
+Find some place to use it!*/
+
+#extra-top-margin{
+	margin-top:100px;
+}
