@@ -20,10 +20,14 @@ a:hover{
 }
 
 .home{
-	width: 80px;
+	width: 40px;
 	padding: 4px;
 	background-color: #f7f5b4;
 	border: 1px solid black;
+}
+
+.home_img{
+	width:40px;
 }
 
 .title{
@@ -32,7 +36,7 @@ a:hover{
 	background-color: #ff9068;
 	border: 1px solid black;
 	margin-bottom: 2%;
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 .huge{
