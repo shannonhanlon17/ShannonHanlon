@@ -15,20 +15,33 @@
 		<div class="main"> 
  
 			<!--Title of the Game -->
-			<div id="header">Green</div>
+			<div id="header">Correct!</div>
 
 			<!-- Game Instructions -->
-			<p class="main_text">Nice! You chose the flower with the green center! Now pick the paint bucket with the complementary color to green to fill in the petals with.</p>
-			<p class="hint">Hint! Which color is opposite green on the color wheel?</p>
+			<p class="main_text">Oh no! The petals lost their colors! Use the paint buckets to paint the flower petals with the complementary colors! Start by picking a flower to color in.</p>
 
 			<!-- Box Holding Flowers -->
-			<div class="flower_container_large">
+			<div class="flower_container">
+
+				<!-- Empty Flower with Green Center -->
+				<div class="flowers" id="top_flowers">
+
+					<!-- Image of Flower - UPDATE LINK-->
+					<img class="empty_flower" src="../img/red_green.png" alt="Empty Flower">
+			</div>
+
+				<!-- Empty Flower with Yellow Center -->
+				<div class="flowers">
+
+					<!-- Image of Flower - UPDATE LINK -->
+					<a href="../yellow/large_empty2.html"><img class="empty_flower" src="../img/yellow_center.png" alt="Empty Flower">
+			</div>
 
 				<!-- Empty Flower with Orange Center. This also calls on formatting for the bottom. -->
-				<div class="flowers" id="large">
+				<div class="flowers" id="bottom_flower">
 
-					<!-- Image of Flower -->
-					<img class="large_flower" src="../img/green_center.png" alt="Empty Flower">
+					<!-- Image of Flower - NO LINK-->
+						<a href="../orange/large_empty2.html"><img class="empty_flower" src="../img/orange_center.png" alt="Empty Flower">
 				</div>
 			</div>
 
@@ -45,11 +58,10 @@
 
 			</div>	
 
-			<!-- Home Button -->
+						<!-- Home Button -->
 			<div class="home_container">
 				<a href="../index.html"><div class="home">Home</div>
 			</div>	
-
 
 		</div>
 	</body>

@@ -4,25 +4,9 @@ body{
 	background-color: pink;
 }
 
-h2{
-	text-align: center;
-}
-
-a:link{
-	text-decoration: none;
-}
-
-a:visited{
-	color: black;
-}
-
-a:hover{
-	color:#a8bac4;
-}
-
 /*Large White Container Holding Game Content*/
 .main{
-	width: 800px;
+	width: 80%;
 	border: 4px solid black;
 	margin: auto;
 	margin-top: 5%;
@@ -37,7 +21,6 @@ a:hover{
 	font-family: 'Gloria Hallelujah', cursive;
 	text-align: center;
 }
-
 
 /*Instructions - Text Formatting*/
 .main_text{
@@ -55,62 +38,71 @@ a:hover{
 
 /*Box Holding Flowers*/
 .flower_container{
-	width: 800px;
-	height: 250px;
-	border: 2px solid #d1d1d1;
-	background-color: white;
-}
-.flower_container_large{
-	width: 800px;
-	height: 450px;
+	width: 100%;
+	height: 100%;
 	border: 2px solid #d1d1d1;
 	background-color: white;
 }
 
 /*Styling on Containers Holding Flower Images - Applied on All Three*/
 .flowers{
-	width: 200px;
-	height: 200px;
-	margin-left: 60px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	float:left;
-	/*display: inline-block;*/
-/*	background-color: powderblue;*/
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin: 2%;
+	align-content: center;
 }
 
-#large{
-	width: 400px;
-	height: 400px;
-	margin-left: 200px;
+/*Pushes Bottom Flower In and Up */
+#bottom_flower{
+	margin-left: 30%;
+	margin-bottom: 5%;
+}
+
+/*Pushes Top Flowers In and Down*/
+#top_flowers{
+	margin-top: 5%;
+	margin-left: 7%;
 }
 
 /*Styling on Flower Images - Applied to All Three*/
 .empty_flower{
-	width: 190px;
-	height: 180px;
-	padding-top: 10px;
-	padding-left: 5px;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
 }
-.large_flower{
-	width: 390px;
-	height: 380px;
-	padding-top: 10px;
-	padding-left: 5px;
+
+#large{
+	width: 300px;
+	height: 300px;
+	margin-left: 25%;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
+
 /*Container Holding Buckets*/
 .bucket_container{
-	width: 800px;
-	height: 200px;
+	width: 100%;
+	height: 100%;
 /*	border: 1px solid gray;*/
 	margin-top: 3%;
 }
 
+/*Bucket Image Styling*/
 .bucket{
-	width: 180px;
-	height: 180px;
+	width: 100%;
+	height: 100%;
 	display: inline-block;
-	margin: 35px;
+	vertical-align: middle;
+}
+
+/*Poistion of the Buckets*/
+.bucket_positioning{
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+	margin: 3.5%;
 }
 
 /*Container Holding Home Button*/
@@ -130,17 +122,4 @@ a:hover{
 	border: 1px solid black;
 	box-shadow: 1px 1px #d1d1d1;
 	float:right;
-}
-
-.play_container{
-	width: 100%;
-}
-
-.play{
-	text-align: center;
-	background-color: pink;
-	width: 200px;
-	margin-left: 320px;
-	margin-top: 40px;
-	border: 2px solid black;
 }
