@@ -121,5 +121,10 @@ body{
 	background-color: #d1d1d1;
 	border: 1px solid black;
 	box-shadow: 1px 1px #d1d1d1;
-	float:right;
+	float:left;
+}
+
+.home_img{
+	width: 40px;
+	padding-top: 7px;
 }
