@@ -3,7 +3,6 @@
   color: white;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -21,12 +20,17 @@ h1{
 	text-align: center;
 }
 
+.title{
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  font-size: 24px;
+  color: #45a4b7;
+}
+
 /* Header/logo Title */
 .header {
-/*  padding: 60px;*/
-/*  text-align: center;*/
   background-color: #333;
-/*  color: white;*/
   margin-bottom: none;
 }
 
