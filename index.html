@@ -4,90 +4,93 @@
 	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/styletest.css" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Arimo|Enriqueta|Libre+Baskerville|Oranienbaum|Playfair+Display|Roboto|Unna" rel="stylesheet">
+	<link href="stylesheet.css" rel="stylesheet"/>
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Arimo|Enriqueta|Libre+Baskerville|Oranienbaum|Playfair+Display|Roboto|Unna" rel="stylesheet"> -->
 
 </head>
 <body>
 
-<!-- Header Image -->
-<div class="header">
-	<img src="assets/capecod.jpg" alt="capecod" style="width: 100%; height: 350px">
-</div>
 
 <!-- Navigation Bar -->
 <div class="navbar">
-  <a href="#">Home</a>
-  <a href="#">About</a>
+  <a href="#">Work
+    <hr class="line"></a>
   <a href="#">Resume</a>
-  <a href="#">Projects</a>
+  <h2 id="title">Shannon<br>Hanlon</h2>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
 </div>
 
-<!-- The flexible grid (content) -->
-<div class="row">
-  	<div class="c">
-    	<div id="extraspace" class="helloimg" style="height:350px; object-fit: cover;">
-    		<img src="assets/headshot.png" alt="headshot" style="width: 100%; height: 100%; object-fit: cover;">
-    	</div>
-    		<h2>SHANNON HANLON</h2>
-    		<p>Hi and welcome to my website! I will be using this to host my portfolio and resume going forward but this is currently only hosting my 5D fundamentals work for the semester!<br><br>Everything on here has been coded using HTML and CSS.</p>
-  	</div>
+<!-- Body of Work -->
+<div id="main" class="col-12">
 
+  <a href="#">
+  <div class="col-6" id="infographic">
+      <p>Infographic</p>  
+  </div> 
+  </a>
 
-<!-- 4 Columns of Links to Work   -->		
-  	<div class="c-1">
-   		<h2>WORK EXPERIENCE</h2>
-    	<div class="fakeimg" style="height:200px;">
-    		<img src="assets/lighthouses.jpg" alt="workexperience" style="width: 100%; height: 100%">
-    	</div>
- <!--    	<p>Some text..</p> -->
-  	</div>
-  	<div class="c-2">
-    	<h2>
-    		<a href="5Dprojects.html">5D FUNDAMENTALS</a>
-    	</h2>
-    	<div class="fakeimg" style="height:200px;">
-    		<a href="5Dprojects.html">
-    			<img src="assets/anchors.jpg" alt="5DFundamentals" style="width: 100%; height: 100%">
-    		</a>	
-    	</div>
-    <!-- 	<p>Some text..</p> -->
-  	</div>
-   	<div class="c-3">
-    	<h2>GRAPHIC DESIGN</h2>
-    	<div class="fakeimg" style="height:200px;">
-    		<img src="assets/fish.jpg" alt="GraphicDesign" style="width: 100%; height: 100%">
-    	</div>
-    	<!-- <p>Some text..</p> -->
-  	</div>
-    <div class="c-4">
-    	<h2>TYPOGRAPHY</h2>
-    	<div class="fakeimg" style="height:200px;">
-    		<img src="assets/wheels.jpg" alt="GraphicDesign" style="width: 100%; height: 100%">
-    	</div>
-<!--     	<p>Some text..</p> -->
-  	</div>
-</div>
- 
-<!--  Showcase spot for 2+ key really cool projects. Saving code in here for later. -->
+  <div class="col-6" id="two">
+   <p>Geolocation App</p>
+  </div> 
 
-<!-- <div class="row">
-  	<div class="c">
-    	<div id="extraspace_right" class="keyproject1_img" style="height:200px;">Insert Image</div>
-    		<h2>HELLO AND WELCOME TO MY WEBSITE</h2>
-    		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  	</div>		
-  	<div class="c">
-    	<div id="extraspace_left" class="helloimg" style="height:200px;">Insert Image</div>
-    		<h2>HELLO AND WELCOME TO MY WEBSITE</h2>
-    		<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  		</div>	
-	</div>   -->
+  <div class="col-4" id="three">
+   <p>Symbol Translations</p>
+  </div> 
 
+  <div class="col-2" id="four">
+   <p>Color Theory</p>
+  </div>  
+
+  <div class="col-4" id="five">
+    <p>Play Poster</p>
+  </div> 
+
+  <div class="col-5" id="six">
+    <p>Type Book 1</p>
+  </div> 
+
+  <div class="col-3" id="seven">
+    <p>Type Book 2</p>
+  </div> 
+
+  <div class="col-3" id="eight">
+    <p>Accordion</p>
+  </div> 
+
+  <div class="col-8" id="nine">
+    <p>LP</p>
+  </div> 
+
+  <div class="col-4" id="ten">
+    <p>Jaws</p>
+  </div> 
+
+  <div class="col-3" id="eleven">
+    <p>Color Study - box</p>
+  </div> 
+
+  <div class="col-3" id="twelve">
+    <p>Color Study - rows</p>
+  </div> 
+
+  <div class="col-2" id="thirteen">
+    <p>13 (2.5)</p>
+  </div> 
+
+  <div class="col-2" id="fourteen">
+    <p>14 (2.5)</p>
+  </div> 
+
+  <div class="col-2" id="fifteen">
+    <p>15 (2.5)</p>
+  </div> 
+
+</div>  
 <!-- Footer -->
-<div class="footer">
+<!-- <div class="footer">
   	<h2>Footer</h2>
-</div>
+</div> -->
 
 </body>
 </html>
