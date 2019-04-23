@@ -24,97 +24,168 @@
 <!-- Body of Work -->
 <div id="main" class="col-12">
 
-  <a href="#">
+<!-- BOX 1: INFOGRAPHIC -->
+<!--   <button id="myBtn" class="col-6">
+    <div id="infographic">
+      <img class="box_pic" src="assets/infographic_image.png"> -->
+<!--       <p>Infographic</p> -->
+<!--     </div> 
+  </button> -->
+
+  <!-- BOX 1: Modal -->
+<!-- <div id="myModal" class="modal">
+ -->
+  <!-- BOX 1: Modal content -->
+<!--   <div class="modal-content">
+    <span class="close">&times;</span>
+    <img class="in_modal" src="assets/opioidcrisis.png">
+    <p>Infographic: Typography 2</p>
+  </div>
+
+</div> -->
+
+<!-- Next -->
+
+    <a href="assets/opioidcrisis.pdf" target="new">
     <div class="col-6" id="infographic">
-      <p>Infographic</p>  
+      <img class="box_pic" src="assets/infographic_image.png">
+<!--       <p>Infographics: Opiod Crisis</p> -->
     </div> 
-  </a>
+  </a> 
 
-  <a href="#">
+<!-- Next -->
+
+    <a href="app/index.html" target="new">
     <div class="col-6" id="two">
-      <p>Geolocation App</p>
-    </div> 
-  </a>
-
-  <a href="#">
-    <div class="col-4" id="three">
-      <p>Symbol Translations</p>
+      <img class="box_pic" src="assets/vector_map.png">
+<!--       <p>Geolocation App</p> -->
     </div> 
   </a>  
 
   <a href="#">
+    <div class="col-4" id="three">
+      <img class="box_pic" id="cans" src="assets/canopener_translations.png">
+<!--       <p>Symbol Translations</p> -->
+    </div> 
+  </a>  
+
+  <a href="color_theory/index.html" target="new">
     <div class="col-2" id="four">
-     <p>Color Theory</p>
+      <img id="height" src="assets/colortheory.png">
+     <!-- <p>Color Theory</p> -->
     </div>  
   </a>
 
-  <a href="#">
+  <a href="assets/streetcar_it37.pdf" target="new">
     <div class="col-4" id="five">
-      <p>Play Poster</p>
+      <img id="streetcar" src="assets/streetcar_it37_otherthing.png">
+<!--       <p>Play Poster</p> -->
     </div> 
   </a>
 
-  <a href="#">
+  <a href="assets/JawsBook_XMAS.pdf" target="new">
     <div class="col-5" id="six">
-      <p>Type Book 1</p>
+      <img class="box_pic" src="assets/shark.png">
+<!--       <p>Jaws</p> -->
     </div> 
   </a>
     
-  <a href="#">
+  <a href="assets/design_with_type.pdf" target="new">
     <div class="col-3" id="seven">
-      <p>Type Book 2</p>
+      <img id="book_space" class="box_pic" src="assets/book.png">
+<!--       <p>Type Book 1</p> -->
     </div> 
   </a>
 
-  <a href="#">
+  <a href="assets/Accordion.pdf" target="new">
     <div class="col-3" id="eight">
-      <p>Accordion</p>
+      <img class="box_pic" src="assets/accordion.png">
+      <!-- <p>Accordion</p> -->
     </div> 
   </a>
 
-  <a href="#">
+  <a href="assets/book_covers.pdf" target="new">
     <div class="col-8" id="nine">
-      <p>LP</p>
+      <img class="book_covers" src="assets/book_cover.png">
+      <!-- <p>Book Covers</p> -->
     </div> 
   </a>
 
-  <a href="#">
+  <a href="assets/logotypes_book.pdf" target="new">
     <div class="col-4" id="ten">
-      <p>Jaws</p>
+      <img id="type_space" class="box_pic" src="assets/logotypes.png">
+<!--       <p>Logotypes Book</p> -->
     </div> 
   </a>
 
-  <a href="#">
+  <a href="color_chips/index.html" target="new">
     <div class="col-3" id="eleven">
-      <p>Color Study - box</p>
+      <img class="bottom_row_size" src="assets/ripple.png">
+<!--       <p>Color Chips</p> -->
     </div> 
   </a>
 
   <a href="#">
     <div class="col-3" id="twelve">
-      <p>Color Study - rows</p>
+      <img class="bottom_row_column" src="assets/palette.png">
+      <!-- <p>Rows & Columns</p> -->
     </div> 
   </a>
 
-  <a href="#">
+  <a href="box_model/index.html" target="new">
     <div class="col-2" id="thirteen">
-      <p>Other</p>
+      <img class="bottom_row_size" src="assets/box_model.png">
+      <!-- <p>Box Model</p> -->
     </div> 
   </a>
 
   <a href="#">
     <div class="col-2" id="fourteen">
-      <p>Other</p>
+      <img class="bottom_row_size" src="assets/1into2_2.png">
+      <!-- <p>1into2</p> -->
     </div> 
   </a>
 
   <a href="#">
     <div class="col-2" id="fifteen">
-      <p>Other</p>
+      <img class="box_pic" src="assets/2into1.png">
+      <!-- <p>2into1</p> -->
     </div> 
   </a>
 
 </div>  
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 <!-- Footer -->
 <!-- <div class="footer">
   	<h2>Footer</h2>
