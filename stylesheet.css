@@ -121,6 +121,18 @@ h2 a:hover{
   margin: none;
 }
 
+#resume{
+  height: 25%;
+  background-color: #566884;
+}
+
+#skills{
+  height: 60%;
+  background-color: #465a7a;
+  padding: 4%;
+  padding-top: 1%;
+}
+
 /*Box #2 (Goelocation App) Styling*/
 #two{
   height: 25%;
