@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	width: 80%;
+	height: 100%;
+	display: block;
+	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.title{
+	width: 100%;
+	height: 60px;
+	background-color: #ff9068;
+	border: 1px solid black;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.huge{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.container{
+	width: 65%;
+	height: 80%;
+	padding: 1%;
+	float: left;
+	background: #00F;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.img{
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+}
+
+.side{
+	width: 30%;
+	height: 100%;
+	padding: 1%;
+	float: right;
+	background-color: #6242f4;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+
+
+
+
+

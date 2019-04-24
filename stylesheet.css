@@ -114,6 +114,13 @@ h2 a:hover{
   background-color: #5a6a84;
 }
 
+/*Same Box but used for Headshot on About Page*/
+#headshot{
+  background-color: #455166;
+  height:25%;
+  margin: none;
+}
+
 /*Box #2 (Goelocation App) Styling*/
 #two{
   height: 25%;
@@ -122,6 +129,12 @@ h2 a:hover{
 
 #two:hover {
   background-color: #687da0;
+}
+
+/*Box #2 (Goelocation App) Styling*/
+#aboutme{
+  height: 25%;
+  background-color: #566884;
 }
 
 /*Box #3 (Symbol Translations) Styling*/
@@ -154,6 +167,16 @@ h2 a:hover{
   background-color: #526a91;
 }
 
+/*Box #5 (Streetcar Poster) Styling*/
+#five_about{
+  height: 25%;
+  background-color: #465a7a;
+}
+
+#five_about:hover{
+  background-color: #526a91;
+}
+
 /*Box #6 (Jaws Script) Styling*/
 #six{
   height: 30%;
@@ -161,6 +184,16 @@ h2 a:hover{
 }
 
 #six:hover{
+  background-color: #758499;
+}
+
+/*Box #6 (Jaws Script) Styling*/
+#six_about{
+  height: 25%;
+  background-color: #6e7a8c;
+}
+
+#six_about:hover{
   background-color: #758499;
 }
 
@@ -174,6 +207,16 @@ h2 a:hover{
   background-color: #637799;
 }
 
+/*Box #7 (Design with Type Book) Styling*/
+#seven_about{
+  height: 25%;
+  background-color: #566884;
+}
+
+#seven_about:hover{
+  background-color: #637799;
+}
+
 /*Box #8 (Accordion) Styling*/
 #eight{
   height: 15%;
@@ -181,6 +224,16 @@ h2 a:hover{
 }
 
 #eight:hover{
+  background-color: #3a5072;
+}
+
+/*Box #8 (Accordion) Styling*/
+#eight_about{
+  height: 25%;
+  background-color: #324563;
+}
+
+#eight_about:hover{
   background-color: #3a5072;
 }
 
@@ -194,6 +247,16 @@ h2 a:hover{
   background-color: #7891ba;
 }
 
+/*Box #9 (Goelocation App) Styling*/
+#nine_about{
+  height: 25%;
+  background-color: #6d84a8;
+}
+
+#nine_about:hover{
+  background-color: #7891ba;
+}
+
 /*Box #10 (Logotypes Book) Styling*/
 #ten{
   height: 15%;
@@ -201,6 +264,16 @@ h2 a:hover{
 }
 
 #ten:hover{
+  background-color: #92aedb;
+}
+
+/*Box #10 (Logotypes Book) Styling*/
+#ten_about{
+  height: 25%;
+  background-color: #88a2cc;
+}
+
+#ten_about:hover{
   background-color: #92aedb;
 }
 
@@ -214,6 +287,16 @@ h2 a:hover{
   background-color: #7d8ba0;
 }
 
+/*Box #11 (2 in 1, 1 in 2 Color Study) Styling*/
+#eleven_about{
+  height: 25%;
+  background-color: #6e7a8c;
+}
+
+#eleven_about:hover{
+  background-color: #7d8ba0;
+}
+
 /*Box #12 (Rows & Columns Color Study) Styling*/
 #twelve{
   height: 10%;
@@ -221,6 +304,16 @@ h2 a:hover{
 }
 
 #twelve:hover{
+  background-color: #3e4b60;
+}
+
+/*Box #12 (Rows & Columns Color Study) Styling*/
+#twelve_about{
+  height: 25%;
+  background-color: #333e4f;
+}
+
+#twelve_about:hover{
   background-color: #3e4b60;
 }
 
@@ -234,6 +327,16 @@ h2 a:hover{
   background-color: #394f72;
 }
 
+/*Box #13 (TBD) Styling*/
+#thirteen_about{
+  height:25%;
+  background-color: #324563;
+}
+
+#thirteen_about:hover{
+  background-color: #394f72;
+}
+
 /*Box #14 (TBD) Styling*/
 #fourteen{
   height: 10%;
@@ -244,6 +347,16 @@ h2 a:hover{
   background-color: #4f678c;
 }
 
+/*Box #14 (TBD) Styling*/
+#fourteen_about{
+  height: 25%;
+  background-color: #465a7a;
+}
+
+#fourteen_about:hover{
+  background-color: #4f678c;
+}
+
 /*Box #15 (TBD) Styling*/
 #fifteen{
   height: 10%;
@@ -251,6 +364,16 @@ h2 a:hover{
 }
 
 #fifteen:hover{
+  background-color: #7b899e;
+}
+
+/*Box #15 (TBD) Styling*/
+#fifteen_about{
+  height: 25%;
+  background-color: #6e7a8c;
+}
+
+#fifteen_about:hover{
   background-color: #7b899e;
 }
 
@@ -288,6 +411,15 @@ h2 a:hover{
   width: 100%;
 }
 
+.headshot_pic{
+  width: 100%;
+  margin-top: 2%;
+}
+
+.about_pics{
+  height: 65%;
+}
+
 .book_covers{
   height: 120%;
 }
@@ -313,6 +445,20 @@ h2 a:hover{
   padding-left: 30%;
 }
 
+#pipe{
+  height: 100%;
+  float: right;
+}
+
+#pipe_text{
+  float: left;
+}
+
+#city{
+  float: right;
+  height: 80%;
+}
+
 /*Adjusts text to mimic actual poster*/
 #streetcar{
   height: 18%;
@@ -332,6 +478,29 @@ h2 a:hover{
 
 #myBtn{
   border: none;
+}
+
+#box_model{
+  height: 70%;
+  margin: auto;
+}
+
+.menu{
+  background-color: #333;
+  color: white;
+  height: 25px;
+  padding-left: 3px;
+  margin-top: 20px;
+}
+
+.menu:hover{
+  background-color: white;
+  color: #333;
+}
+
+.menu_item{
+  padding-top: 4px;
+  padding-left: 3px;
 }
 
 /*MODAL STYLING*/
